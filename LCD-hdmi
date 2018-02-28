@@ -3,4 +3,4 @@ sudo cp -r ./usr/modules-HDMI  /etc/modules
 sudo cp -r ./usr/99-fbturbo.conf-HDMI  /usr/share/X11/xorg.conf.d/99-fbturbo.conf
 sudo cp ./boot/config-HDMI.txt /boot/config.txt
 sudo cp ./usr/inittab /etc/
-echo "Files copied". Please reboot now!"
+echo "Files copied. Please reboot now!"
